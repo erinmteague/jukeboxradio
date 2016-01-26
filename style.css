@@ -1,0 +1,77 @@
+body{
+	background: url("images/eerie.jpg") center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#radio{
+	width: 46%;
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	box-shadow: 10px 10px 5px #181818;
+
+}
+#title{
+	width: 23%;
+	position: fixed;
+	top: 3%;
+	left: 2%;
+}
+.btn-circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#track{
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid darkslategrey;
+	border-radius: 2em 2em;
+	width: 44px;
+	height: 100px;
+	position: absolute;
+	top: 68%;
+	left: 32%;
+}
+#play{
+	position: absolute;
+	background-color: #8c7853;
+}
+.stop{
+	position: absolute;
+	background-color: #8c7853;
+	display: none;
+	bottom: 0;
+}
+#pause{
+	width: 65px;
+	height: 30px;
+	
+	position: absolute;
+	bottom: 22%;
+	left: 36%;
+	background-color: #ADADA8;
+}
+#volume{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 21%;
+	right: 25%;
+	background-color: #8c7853
+}
+#onair{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	bottom: 25%;
+	right: 32%;
+}
+.light{
+	box-shadow: 4px 4px 1px rgba(255,0,0,0.2),
+	 -4px 4px 1px rgba(255,0,0,0.2),
+	 4px -4px 1px rgba(255,0,0,0.2),
+	-4px -4px 1px rgba(255,0,0,0.2);
+}
