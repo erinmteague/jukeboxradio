@@ -6,6 +6,7 @@ $(document).ready(function(){
 			backgroundColor: 'red'
 		});
 		$("#onair").addClass("light");
+		Radio.play();
 	});
 	$(".stop").on('click', function(){
 		$(".stop").hide();
