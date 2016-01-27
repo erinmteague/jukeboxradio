@@ -13,21 +13,15 @@
 
 		<img id="radio" src="images/blackgrain.jpeg"><br>
 		<div id="track">
-			<button id="play" class="btn-circle">play</button>
-			<button id="stop" class="btn-circle stop">stop</button>
+			<button id="play" onclick="Radio.play()" class="btn-circle">play</button>
+			<button id="stop" onclick="Radio.stop()" class="btn-circle stop">stop</button>
 		</div>
-		<button id="next">next</button>
+		<button id="next" onclick="Radio.next()">next</button>
 		<div id="onair"></div>
 		<button id="volume">volume</button>
 
-		<audio id="shrap" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-07-06_ep04_The_Shrapnelled_Body_Of_Charles_Drew_Senior.mp3"></audio>
-		<audio id="banks" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-09-30_ep14_The_Bloody_Bloody_Banks_Of_Fall_River.mp3"></audio>
-		<audio id="hang" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-10-07_ep15_The_Hangman_and_William_Palmer_-_Who_Won.mp3"></audio>
-		<audio id="jack" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_54-06-30_ep51_Good_Evening_My_Name_Is_Jack_The_Ripper.mp3"></audio>
-		<audio id="skeleton" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_54-05-12_ep45_Mr_Clarkes_Skeleton_In_Mr_Arams_Closet.mp3"></audio>
-
-
-
+		<audio id="player" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-07-06_ep04_The_Shrapnelled_Body_Of_Charles_Drew_Senior.mp3"></audio>
+		
 
 
 		<script src="radio.js"></script>
