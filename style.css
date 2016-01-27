@@ -29,7 +29,7 @@ body{
 	width: 44px;
 	height: 100px;
 	position: absolute;
-	top: 68%;
+	top: 66%;
 	left: 32%;
 }
 #play{
@@ -46,18 +46,16 @@ body{
 	width: 65px;
 	height: 30px;
 	position: absolute;
-	bottom: 22%;
+	bottom: 23%;
 	left: 36%;
 	background-color: #ADADA8;
 }
-#volume{
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
+canvas{
 	position: absolute;
-	bottom: 21%;
+	bottom: 23%;
 	right: 25%;
-	background-color: #8c7853
+	background-color: #8C7448;
+	border-radius: 50%;
 }
 #onair{
 	width: 9px;
