@@ -3,31 +3,43 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>CBS Crime Classics</title>
+        <link rel='shortcut icon' href='images/cbsfavicon.png' type='image/x-icon'/ >
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="jquery.knob.min.js"></script>
 		<script src="script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<img id="title"src="images/img_crime-classics-head.png">
-
-		<img id="radio" src="images/blackgrain.jpeg"><br>
-		<div id="track">
-			<button id="play" onclick="Radio.play()" class="btn-circle">play</button>
-			<button id="stop" onclick="Radio.stop()" class="btn-circle stop">stop</button>
-		</div>
-		<button id="next" onclick="Radio.next()">next</button>
-		<div id="onair"></div>
-		<input id="volume" type="text" value="32" class="dial"></input>
-		<audio id="player" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-07-06_ep04_The_Shrapnelled_Body_Of_Charles_Drew_Senior.mp3"></audio>
+        <div id="episodes">
+        <ul>Episodes:
+            <li>1. The Shrapnelled Body of Charles Drew Senior</li>
+            <li>2. The Bloody Bloody Banks of Fall River</li>
+            <li>3. The Hangman and William Palmer, Who Won?</li>
+            <li>4. Good Evening, My Name is Jack the Ripper</li>
+            <li>5. Mr. Clarke's Skeleton in Mr. Aram's Closet</li>
+        </ul>
+        </div>
+        <div id="radio-box">
+		  <img id="radio" src="images/blackgrain.jpeg"><br>
+		  <div id="track">
+			 <button id="play" onclick="Radio.play()" class="btn-circle"></button>
+			 <button id="stop" onclick="Radio.stop()" class="btn-circle stop"></button>
+		  </div>
+		  <button id="next" onclick="Radio.next()">skip</button>
+		  <div id="onair"></div>
+		  <input id="volume" type="text" value="32" class="dial"></input>
+		  <audio id="player" src="https://ia801405.us.archive.org/6/items/OTRR_Crime_Classics_Singles/cric_53-07-06_ep04_The_Shrapnelled_Body_Of_Charles_Drew_Senior.mp3"></audio>
+        </div>
 		<script>
         	$('.dial').knob(
         		{
         			min: 0, 
         			max: 100,
-        			width: 70,
-        			height: 70,
+        			width: 45,
+        			height: 45,
         			displayInput: false,
         			fgColor: '#8c7853',
         			bgColor: '#82693D',
