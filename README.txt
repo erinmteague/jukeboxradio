@@ -2,6 +2,18 @@
 This is an Javascript music player inspired by the CBS Crime Classics Series. Styling is done with pure CSS3 and Knob.js framework has been incorporated into the volume dial functionality.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 You've had a bit of time to get familiar with object oriented JavaScript. Time to use that knowledge to make the coolest juke joint in the place!
 
 Using any mp3 you can find online, create a simple web page where you can play it. After this step, research which JavaScript functions can pause, play, and stop the Jukebox.
